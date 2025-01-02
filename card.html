@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="theme-light">
+    <button id="theme-toggle" class="theme-toggle">
+        <div class="theme-icons">
+            <span>☀️</span>
+            <span>🌙</span>
+        </div>
+        <div class="toggle-circle"></div>
+    </button>
+
+    <div class="card">
+        <div>
+            <img src="me.jpg" alt="me" class="avatar">
+        </div>
+
+        <div>
+            <h3>Orhan Faruk Demir</h3>
+            <p>Freshman in Computer Engineering at TOBB University of Economics and Technology.</p>
+            <h4>Ankara, Turkey</h4>
+        </div>
+    </div>
+
+    <script>
+        const themeToggle = document.getElementById('theme-toggle');
+        const body = document.body;
+
+        themeToggle.addEventListener('click', () => {
+            if (body.classList.contains('theme-light')) {
+                body.classList.replace('theme-light', 'theme-dark');
+            } else {
+                body.classList.replace('theme-dark', 'theme-light');
+            }
+        });
+    </script>
+</body>
+
+</html>
