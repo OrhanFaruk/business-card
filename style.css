@@ -1,7 +1,11 @@
 body {
-    margin: 20px;
+    margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: all 0.3s ease;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .avatar {
@@ -13,7 +17,7 @@ body {
 
 .card {
     width: 400px;
-    margin: 250px auto 250px auto;
+    margin: 0 auto;
     padding: 20px;
     display: flex;
     justify-content: space-around;
@@ -21,7 +25,8 @@ body {
     background: #ffffff;
     color: #2c3e50;
     border-radius: 20px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1),
+        0 0 15px rgba(74, 144, 226, 0.1);
     transition: all 0.3s ease;
 }
 
