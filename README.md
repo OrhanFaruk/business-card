@@ -1,1 +1,1 @@
-kendim icin olusturdugum ve ayni zamanda html&css icin gelistirdigim ilk projem.
+Kendim icin olusturdugum ve ayni zamanda HTML & CSS icin gelistirdigim ilk projem.
